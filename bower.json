@@ -1,0 +1,20 @@
+{
+  "name": "spygame",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "camilo tapia <camilo.tapia@gmail.com>"
+  ],
+  "license": "MIT",
+  "direcory": "public/scripts/lib",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.11.1"
+  }
+}

@@ -1,0 +1,6 @@
+{{##def.content:
+
+    <div id="map"></div>
+
+#}}
+{{#def.include('layout')}}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>DATA</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    </head>
+    <body>
+        <div class="content">
+            {{#def.content || ""}}
+         </div>
+        <script data-main="/scripts/main" src="/scripts/components/require.js"></script> 
+    </body>
+</html>

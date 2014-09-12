@@ -1,0 +1,6 @@
+require(['userpos'], function(eventList) {
+
+
+
+});
+  
