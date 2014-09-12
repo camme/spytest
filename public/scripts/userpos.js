@@ -13,7 +13,7 @@ function init() {
             clearTimeout(checkGeo);
             socket.emit("user.position", position);
 
-            map.positionUser("me", "#ff00ff", position.coords);
+            //map.positionUser("me", "#ff00ff", position.coords);
 
             setTimeout(function() {
                 navigator.geolocation.getCurrentPosition(useGeo);
@@ -37,6 +37,7 @@ function init() {
     init();
 
     socket.on('users.update', function(e) {
+console.log(e);
         map.positionUser(e.userId, e.color, e.position);
     });
 
